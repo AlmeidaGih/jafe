@@ -7,13 +7,139 @@
     android:background="#EDE1D7"
     tools:context=".MainActivity">
 
-    <ImageView
-        android:id="@+id/imageView8"
-        android:layout_width="371dp"
-        android:layout_height="581dp"
+    <TextView
+        android:id="@+id/txtWelcome2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="24dp"
+        android:fontFamily="@font/cormorant_garamond_semibold_italic"
+        android:text="Bem vindo de volta!"
+        android:textColor="#402104"
+        android:textSize="24sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/txtTitle2"
+        android:layout_width="211dp"
+        android:layout_height="123dp"
+        android:fontFamily="@font/cormorant_garamond_bold"
+        android:text="Jafé"
+        android:textAlignment="center"
+        android:textColor="#402104"
+        android:textSize="96sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:srcCompat="@drawable/jafelogo" />
+        app:layout_constraintVertical_bias="0.162" />
+
+    <EditText
+        android:id="@+id/txtEmail"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:width="350sp"
+        android:height="45dp"
+        android:autoText="false"
+        android:ems="10"
+        android:fontFamily="@font/cormorant_garamond_bold"
+        android:hint="E-mail"
+        android:inputType="textEmailAddress"
+        android:textColor="#402104"
+        android:textColorHint="#402104"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.409"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.382" />
+
+    <EditText
+        android:id="@+id/txtPassword"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:width="350sp"
+        android:height="45dp"
+        android:ems="10"
+        android:fontFamily="@font/cormorant_garamond_bold"
+        android:hint="Senha"
+        android:inputType="textPassword"
+        android:textColor="#402104"
+        android:textColorHint="#402104"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.409"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.462" />
+
+    <Button
+        android:id="@+id/btnLogin2"
+        style="@style/Widget.Material3.ExtendedFloatingActionButton.Icon.Surface"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:width="350sp"
+        android:backgroundTint="#734E32"
+        android:fontFamily="@font/cormorant_garamond_bold_italic"
+        android:text="Entrar"
+        android:textColor="#EDE1D7"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.409"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.565" />
+
+    <Button
+        android:id="@+id/btnSignUp2"
+        style="@style/Widget.Material3.ExtendedFloatingActionButton.Icon.Surface"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:width="350sp"
+        android:backgroundTint="#734E32"
+        android:fontFamily="@font/cormorant_garamond_bold_italic"
+        android:text="Cadastrar-se"
+        android:textColor="#EDE1D7"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.409"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.671" />
+
+    <Button
+        android:id="@+id/btnNoLogin2"
+        style="@style/Widget.Material3.ExtendedFloatingActionButton.Icon.Surface"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:width="350sp"
+        android:backgroundTint="#734E32"
+        android:fontFamily="@font/cormorant_garamond_bold_italic"
+        android:text="Entrar sem login"
+        android:textColor="#EDE1D7"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.409"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.785" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/cormorant_garamond_semibold"
+        android:text="Esqueceu a senha?"
+        android:textColor="#402104"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.951" />
 </androidx.constraintlayout.widget.ConstraintLayout>
