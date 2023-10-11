@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#EDE1D7"
+    tools:context=".UserMenuView">
+
+
+    <TextView
+        android:id="@+id/txtMessage"
+        android:layout_width="380dp"
+        android:layout_height="46dp"
+        android:fontFamily="@font/cormorant_garamond_semibold_italic"
+        android:text="Todo dia é dia de café!"
+        android:textColor="#402104"
+        android:textSize="35sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.483"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.087" />
+
+    <com.google.android.material.bottomnavigation.BottomNavigationView
+        android:id="@+id/ctnMenu"
+        android:layout_width="413dp"
+        android:layout_height="75dp"
+        android:background="#402104"
+        app:itemTextColor="#EDE1D7"
+        app:labelVisibilityMode="labeled"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="1.0"
+        app:menu="@menu/navigation_buttons"
+
+        />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
